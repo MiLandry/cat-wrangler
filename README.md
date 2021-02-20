@@ -179,6 +179,8 @@ note there is no flutter in this
 
 ## Implementation tracking legend
 
+🟦 Not required
+
 🟥 Problem not solved
 
 🟧 Problem solved by different specification and implementation
@@ -193,11 +195,15 @@ note there is no flutter in this
 
 ## Implementation status
 
-  ## Implementation status
 
 🟩 Authorization
 🟩 Authentication
 🟩 Navigation and Routing
+  home screen
+    settings screen
+    dashboard
+    search tools
+    feed
 🟧 Environment variables (env library)
 🟩 UI UX
 CRUD Support
