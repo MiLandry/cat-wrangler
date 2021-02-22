@@ -23,6 +23,7 @@ class App extends React.Component {
           <div className="mt-5">
             <Switch>
               <Route path="/" exact component={Home} />
+              {/* <ProtectedRoute path="/profile" component={CreateNewEvent} /> */}
               <ProtectedRoute path="/profile" component={Profile} />
               <ProtectedRoute path="/external-api" component={ExternalApi} />
             </Switch>
